@@ -1,0 +1,8 @@
+127.0.0.1 - - [10/Feb/2023:06:49:59 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:06:50:00 +0000] "GET /jspdemo/helloworld.jsp HTTP/1.1" 200 119
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:06:50:00 +0000] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:06:50:46 +0000] "GET /jspdemo/helloworld.jsp HTTP/1.1" 200 119
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:06:50:46 +0000] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:07:03:27 +0000] "GET /jspdemo/expression-test.jsp HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:07:06:08 +0000] "GET /jspdemo/expression-test.jsp HTTP/1.1" 200 122
+0:0:0:0:0:0:0:1 - - [10/Feb/2023:07:08:07 +0000] "GET /jspdemo/expression-test.jsp HTTP/1.1" 200 161

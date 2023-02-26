@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Feb/2023:05:46:57 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:05:46:58 +0000] "GET /tagdemo/function-test.jsp HTTP/1.1" 200 82
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:05:52:55 +0000] "GET /tagdemo/function-test.jsp HTTP/1.1" 200 158
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:05:54:57 +0000] "GET /tagdemo/function-test.jsp HTTP/1.1" 200 237
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:06:09:56 +0000] "GET /tagdemo/split-join-test.jsp HTTP/1.1" 200 123
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:06:13:29 +0000] "GET /tagdemo/split-join-test.jsp HTTP/1.1" 200 188
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:06:17:09 +0000] "GET /tagdemo/split-join-test.jsp HTTP/1.1" 200 123
+0:0:0:0:0:0:0:1 - - [24/Feb/2023:06:18:32 +0000] "GET /tagdemo/split-join-test.jsp HTTP/1.1" 200 187

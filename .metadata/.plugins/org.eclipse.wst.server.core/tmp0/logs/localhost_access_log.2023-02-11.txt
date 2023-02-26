@@ -1,0 +1,16 @@
+127.0.0.1 - - [11/Feb/2023:05:56:32 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:05:56:33 +0000] "GET /jspdemo/scriptlet-test.jsp HTTP/1.1" 200 194
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:06:08:42 +0000] "GET /jspdemo/declaration-test.jsp HTTP/1.1" 200 74
+127.0.0.1 - - [11/Feb/2023:06:24:18 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:06:24:18 +0000] "GET /jspdemo/WEB-INF/fun-test.jsp HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:06:24:44 +0000] "GET /jspdemo/WEB-INF/fun-test.jsp HTTP/1.1" 404 682
+127.0.0.1 - - [11/Feb/2023:06:27:31 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:06:27:32 +0000] "GET /jspdemo/WEB-INF/fun-test.jsp HTTP/1.1" 404 682
+127.0.0.1 - - [11/Feb/2023:06:30:56 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:06:30:56 +0000] "GET /jspdemo/fun-test.jsp HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:06:42:31 +0000] "GET /jspdemo/fun-test.jsp HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:07:48:06 +0000] "GET /jspdemo/builtin-test.jsp HTTP/1.1" 200 227
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:07:48:29 +0000] "GET /jspdemo/builtin-test.jsp HTTP/1.1" 200 239
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:07:48:58 +0000] "GET /jspdemo/builtin-test.jsp HTTP/1.1" 200 236
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:07:48:58 +0000] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Feb/2023:08:14:40 +0000] "GET /jspdemo/homepage.jsp HTTP/1.1" 200 218

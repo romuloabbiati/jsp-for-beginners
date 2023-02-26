@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/Users/romuloabbiati/Documents/jsp-for-beginners/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/397597023.index
+/jspdemo/src
+/Users/romuloabbiati/Documents/jsp-for-beginners/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4170143903.index
+/tagdemo/src
+/Users/romuloabbiati/Documents/jsp-for-beginners/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/896135630.index
+/jspdemo/src

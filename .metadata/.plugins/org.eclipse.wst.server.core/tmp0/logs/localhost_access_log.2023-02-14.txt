@@ -1,0 +1,9 @@
+127.0.0.1 - - [14/Feb/2023:07:11:02 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:11:03 +0000] "GET /jspdemo/student-checkbox-form.html HTTP/1.1" 200 652
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:11:35 +0000] "GET /jspdemo/student-checkbox-form.jsp?firstName=John&lastName=Doe&favouriteLanguage=Java&favouriteLanguage=c%23&favouriteLanguage=Ruby HTTP/1.1" 200 253
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:12:17 +0000] "GET /jspdemo/student-checkbox-form.html HTTP/1.1" 200 668
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:12:40 +0000] "GET /jspdemo/student-checkbox-form.jsp?firstName=&lastName=&favouriteLanguage=Java&favouriteLanguage=PHP HTTP/1.1" 200 233
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:13:48 +0000] "GET /jspdemo/student-checkbox-form.html HTTP/1.1" 200 668
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:14:00 +0000] "GET /jspdemo/student-checkbox-form.jsp?firstName=Romulo&lastName=Hipolito+Abbiati HTTP/1.1" 500 2436
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:14:50 +0000] "GET /jspdemo/student-checkbox-form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Feb/2023:07:14:59 +0000] "GET /jspdemo/student-checkbox-form.jsp?firstName=John&lastName=Doe HTTP/1.1" 200 213
