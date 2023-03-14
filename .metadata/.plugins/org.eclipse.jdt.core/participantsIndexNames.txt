@@ -7,3 +7,5 @@ INDEX VERSION 1.131
 /jspdemo/src
 /Users/romuloabbiati/Documents/jsp-for-beginners/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/397597023.index
 /jspdemo/src
+/Users/romuloabbiati/Documents/jsp-for-beginners/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2729125464.index
+/web-student-tracker/src
