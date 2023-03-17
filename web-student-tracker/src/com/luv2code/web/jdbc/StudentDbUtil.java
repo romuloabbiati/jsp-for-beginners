@@ -58,6 +58,11 @@ public class StudentDbUtil {
 		}
 	}
 
+	public void addStudent(Student student) {
+		// TODO Auto-generated method stub
+		// do nothing for now
+	}
+	
 	private void close(Connection myConn, Statement myStmt, ResultSet myRs) {
 		try {
 			if(myRs != null) {
@@ -76,5 +81,6 @@ public class StudentDbUtil {
 			exc.printStackTrace();
 		}
 	}
+
 
 }
