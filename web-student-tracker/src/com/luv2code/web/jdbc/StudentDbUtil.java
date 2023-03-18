@@ -3,6 +3,7 @@ package com.luv2code.web.jdbc;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
@@ -107,6 +108,52 @@ public class StudentDbUtil {
 			
 		} catch (Exception exc) {
 			exc.printStackTrace();
+		}
+	}
+
+	public Student getStudent(String studentId) throws Exception {
+		Student theStudent = null;
+		
+		Connection myConn = null;
+		PreparedStatement myStmt = null;
+		ResultSet myRs = null;
+		int theStudentId;
+		
+		try {
+			// convert student id to int
+			theStudentId = Integer.parseInt(studentId);
+			
+			// get connection to database
+			myConn = dataSource.getConnection();
+			
+			// create sql to get selected student
+			String sql = "select * from student where id=?";
+			
+			// create prepared statement
+			myStmt = myConn.prepareStatement(sql);
+			
+			// set params
+			myStmt.setInt(1, theStudentId);
+			
+			// execute statement
+			myRs = myStmt.executeQuery();
+			
+			// retrieve data from result set row
+			if(myRs.next()) {
+				String firstName = myRs.getString("first_name");
+				String lastName = myRs.getString("last_name");
+				String email = myRs.getString("email");
+				
+				// use theStudentId during construction
+				theStudent = new Student(theStudentId, firstName, lastName, email);
+			} else {
+				throw new Exception("Could not find student id " + theStudentId);
+			}
+			return theStudent;
+			
+		} finally {
+			// clean up JDBC object
+			close(myConn, myStmt, myRs);
 		}
 	}
 
